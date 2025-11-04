@@ -291,6 +291,8 @@ Creates a new patient record.
 
 </box>
 
+The image below illustrates the prompt that appears when an invalid command is entered. Since tags are optional, this message will not appear if the t/ prefix is omitted.
+![help message](images/TipCommandHint.png)
 **Output:**
 
 * Success → `New patient added: Dylan`
@@ -396,7 +398,7 @@ Search for patients by name (case-insensitive, partial matching).
 
 <box type="tip" seamless>
 
-**Tip:** You can enter multiple keywords(capitalised or non-capitalised is fine) to find more than 1 patient. E.g
+**Tip:** You can enter multiple keywords(capitalised or non-capitalised is fine) to find more than 1 patient.
 
 </box>
 
